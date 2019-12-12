@@ -2,7 +2,7 @@
 Python Package for Chatbot
 
 # How to import
->>> from sen_chatbot import ChatBot 
+>>> from sen_chatbot.ChatBot import ChatBot 
 # How to use
 >>> cb = ChatBot()
 # ChatBot Initialized in cb
