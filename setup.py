@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name="sen-chatbot",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python package for creating chatbot.",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -20,7 +20,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["sen-chatbot"],
+    packages=["sen_chatbot"],
     include_package_data=True,
     install_requires=["wikipedia"],
 )
